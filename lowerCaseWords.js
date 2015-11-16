@@ -1,3 +1,5 @@
+// Перевод первой буквы слова в заглавную. Остальные буквы в слове остаются в нижнем регистре.
+
 function titleCase(str) {
   str = str.toLowerCase().split(' ');
   for (var i in str) {
